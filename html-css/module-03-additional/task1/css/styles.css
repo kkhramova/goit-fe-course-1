@@ -1,23 +1,23 @@
-ul {
+.menu {
   list-style: none;
   font-family: "Playfair display";
   text-align: center;
 }
 
 
-ul li{
+.menu-item{
   display: inline-block;
  
 }
 
-.main-menu a{
+.menu a{
   text-decoration: none;
   margin: 10px;
   color: #000000;
   
 
 }
-.main-menu a:hover {
+.menu a:hover {
   color: green;
   text-decoration: underline;
 
