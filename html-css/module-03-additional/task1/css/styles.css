@@ -1,0 +1,29 @@
+.menu {
+  list-style: none;
+  font-family: "Playfair display";
+  text-align: center;
+}
+
+
+.menu-item{
+  display: inline-block;
+ 
+}
+
+.menu > a{
+  text-decoration: none;
+  margin: 10px;
+  color: #000000;
+  
+
+}
+.menu a:hover {
+  color: green;
+  text-decoration: underline;
+
+}
+
+ul {
+   padding: 0;
+   
+}
