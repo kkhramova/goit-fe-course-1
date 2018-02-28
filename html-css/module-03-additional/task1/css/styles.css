@@ -1,0 +1,24 @@
+ul {
+  list-style: none;
+  font-family: "Playfair display";
+  text-align: center;
+}
+
+
+ul li{
+  display: inline-block;
+ 
+}
+
+.main-menu a{
+  text-decoration: none;
+  margin: 10px;
+  color: #000000;
+  
+
+}
+.main-menu a:hover {
+  color: green;
+  text-decoration: underline;
+
+}
