@@ -1,7 +1,41 @@
-[core]
-	repositoryformatversion = 0
-	filemode = false
-	bare = false
-	logallrefupdates = true
-	symlinks = false
-	ignorecase = true
+body {
+  color: #626262;
+  font-family: "Playfair Display";
+}
+
+.main-menu {
+  font-size: 14 px;
+  list-style: none;
+}
+
+.main-menu a {
+  color: #626262;
+  text-decoration: none;
+  line-height: 24 px;
+  text-transform: uppercase;
+}
+
+.content-list {
+  list-style: none;
+}
+
+h3 {
+  color: #b4ad9e;
+  text-transform: uppercase;
+  font-family: "Ubuntu";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+p {
+  font-size: 14 px;
+  font-weight: 400;
+  line-height: 24 px;
+}
+
+.main-menu a:hover {
+  color: green;
+}
+
+
