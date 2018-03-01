@@ -50,3 +50,7 @@
   padding-left: 15px;
   vertical-align: top;
 }
+
+.image {
+  max-width:100%;
+}
