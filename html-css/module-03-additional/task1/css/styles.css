@@ -1,6 +1,6 @@
 .menu {
   list-style: none;
-  font-family: "Playfair display";
+  font-family: "Playfair display", sans-serif;
   text-align: center;
 }
 
@@ -10,7 +10,7 @@
  
 }
 
-.menu > a{
+.menu-link{
   text-decoration: none;
   margin: 10px;
   color: #000000;

@@ -1,6 +1,7 @@
 body {
   color: #626262;
   font-family: "Playfair Display";
+  float: left;
 }
 
 .main-menu {
