@@ -1,0 +1,52 @@
+.wrapper {
+  color: #626262;
+  font-family: "Playfair Display";
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  margin-right: auto; 
+  margin-left:  auto;
+  margin-top: 200px; 
+  max-width: 940px; 
+  
+
+}
+
+.list {
+  list-style: none;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 30px;
+  display: inline-block;
+}
+
+.picture-name {
+  color: #b4ad9e;
+  text-transform: uppercase;
+  font-family: "Ubuntu";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  
+}
+
+.title {
+  
+  font-size: 30px;
+  font-weight: 300;
+}
+
+
+.text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 40px;
+
+}
+
+.list-item {
+  display: inline-block;
+  width:45%;
+  padding-right: 25px;
+  padding-left: 15px;
+  vertical-align: top;
+}
