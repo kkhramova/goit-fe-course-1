@@ -1,13 +1,24 @@
 body {
   color: #626262;
   font-family: "Playfair Display";
+  font-size: 0px;
+}
+
+.main-nav {
+  margin: 75px;
+}
+/* main navigation */
+.header {
+  width: 900px;
+  margin: auto;
 }
 
 .main-menu {
-  font-size: 14 px;
+  font-size: 14px;
   list-style: none;
   text-align: center;
   padding: 0px;
+  margin: 0px;
 }
 
 .main-menu a:hover {
@@ -16,16 +27,33 @@ body {
 
 .main-menu-item {
   display: inline-block;
-  padding: 60px;
-  padding-top: 75px;
-  padding-bottom: 100px;
   text-align: center;
 }
+
+.link-1 {
+  margin-right: 120px;
+}
+
+.link-2 {
+  margin-right: 105px;
+}
+
+.link-3 {
+  margin-right: 95px;
+}
+
 .main-menu a {
   color: #626262;
   text-decoration: none;
-  line-height: 24 px;
+  display: block;
+  line-height: 24px;
   text-transform: uppercase;
+}
+/* content */
+.wrapper {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .content-list {
@@ -33,48 +61,59 @@ body {
   padding: 0px;
 }
 
-img {
-  display: block;
+.content-list-item {
+  display: inline-block;
+  margin-right: 60px;
+  width: 420px;
+  margin-bottom: 130px;
 }
 
+.content-list-item:nth-child(2n) {
+  margin-right: 0px;
+}
+.content-list-item:nth-last-child(-n+2){
+  margin-bottom: 0px;
+}
+}
 
-h3 {
+.content-list-item h3 {
   color: #b4ad9e;
   text-transform: uppercase;
   font-family: "Ubuntu";
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
+  width: 420px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-p {
-  font-size: 14 px;
+.content-list-item h2 {
+  font-size: 30px;
+  line-height: 36px;
+  width: 420px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.content-list-item p {
+  font-size: 14px;
   font-weight: 400;
-  line-height: 24 px;
+  line-height: 24px;
+  width: 420px;
+  margin: auto;
+  margin-top: 20px;
+  
 }
 
-.content-list-item {
-  display: inline-block;
-  width: 48%;
-}
-
-.wrapper {
-  width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.right {
-  padding-left: 32px;
-}
 
 div {
-  /* width: 165px;
-  margin: auto;  */
-  display: flex;
-  justify-content: center; 
-  padding-top: 30px;
+  width: 165px;
+  margin: 0 auto;
+  padding-top: 55px;
   padding-bottom: 50px;
+
 }
 
 button {
@@ -84,5 +123,6 @@ button {
   background-color: white;
   padding: 20px;
   width: 165px;
+  font-size: 20px;
+  line-height: 24px;
 }
-
