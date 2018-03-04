@@ -4,8 +4,8 @@ body {
   font-size: 0px;
 }
 
-.main-nav {
-  margin: 75px;
+/* .main-nav {
+  margin: 75px; */
 }
 
 /* main navigation */
@@ -19,7 +19,7 @@ body {
   font-size: 14px;
   list-style: none;
   text-align: center;
-  padding: 0px;
+  padding: 75px;
   margin: 0px;
 }
 
@@ -70,6 +70,7 @@ body {
   margin-right: 60px;
   width: 420px;
   margin-bottom: 130px;
+  vertical-align: top;
 }
 
 .content-list-item:nth-child(2n) {
@@ -90,7 +91,7 @@ body {
   width: 420px;
   margin: auto;
   margin-top: 20px;
-  
+  margin-bottom: 20px;
 }
 
 .content-list-item h2 {
