@@ -7,7 +7,9 @@ body {
 .main-nav {
   margin: 75px;
 }
+
 /* main navigation */
+
 .header {
   width: 900px;
   margin: auto;
@@ -49,7 +51,9 @@ body {
   line-height: 24px;
   text-transform: uppercase;
 }
+
 /* content */
+
 .wrapper {
   width: 900px;
   margin-left: auto;
@@ -71,9 +75,9 @@ body {
 .content-list-item:nth-child(2n) {
   margin-right: 0px;
 }
-.content-list-item:nth-last-child(-n+2){
+
+.content-list-item:nth-last-child(-n+2) {
   margin-bottom: 0px;
-}
 }
 
 .content-list-item h3 {
@@ -86,7 +90,7 @@ body {
   width: 420px;
   margin: auto;
   margin-top: 20px;
-  margin-bottom: 20px;
+  
 }
 
 .content-list-item h2 {
@@ -104,15 +108,14 @@ body {
   width: 420px;
   margin: auto;
   margin-top: 20px;
-  
 }
 
+/* button */
 
 div {
   width: 165px;
-  margin: 0 auto;
-  padding-top: 55px;
-  padding-bottom: 50px;
+  margin: 55px auto;
+
 
 }
 
@@ -121,8 +124,10 @@ button {
   text-decoration: none;
   border: 1px solid;
   background-color: white;
-  padding: 20px;
-  width: 165px;
+  padding: 18px;
+  min-width: 165px;
+  min-height: 60px;
   font-size: 20px;
   line-height: 24px;
+  cursor: pointer;
 }
