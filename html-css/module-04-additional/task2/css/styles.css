@@ -1,0 +1,29 @@
+
+.list {
+  list-style: none;
+  font-size: 25px;
+  margin: 0 auto;
+  text-align: center;
+  color: #0E1116;
+  font-family: sans-serif;
+}
+
+.list-item:not(:last-child) {
+  padding-bottom: 30px;
+}
+
+.list-item:first-child {
+  padding-top: 40px;
+}
+
+.list-item:nth-child(3n+1) {
+  color: #88292F;
+}
+
+.list-item:nth-child(3n+2) {
+  color: #5DB7DE;
+}
+
+.list-item:nth-child(3n+3) {
+  color: #0D5D56;
+}

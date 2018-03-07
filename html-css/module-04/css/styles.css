@@ -31,6 +31,7 @@ img {
  /* header */
 .header{
   margin-bottom: 105px;
+  padding-top: 40px;
 }
 
 .header a {
@@ -43,7 +44,8 @@ img {
   text-transform: uppercase;
   float: left;
   margin: 0;
-  padding-top: 36px;
+  color: #555252;
+  
 }
 
 .logo::first-letter {
@@ -54,14 +56,13 @@ img {
 .navigation-list {
   padding: 0;
   margin: 0;
-  padding-top: 40px;
-  list-style: none;
-  width: 486px;
+  list-style: none; 
   float: right;
 }
 
 .navigation-list li {
   float: left;
+  line-height: 32px;
   padding-left: 35px;
   
 }
@@ -75,10 +76,6 @@ img {
   text-transform: uppercase;
   font-size: 14px;
   line-height: 11px;
-}
-
-.home {
-  color: #1abc9c;
 }
 
 .navigation-list a:hover,
@@ -140,7 +137,7 @@ h2::after {
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   font-size: 18px;
-  line-height: 32px;
+  line-height: 40px;
   font-weight: 900;
   display: inline-block;
   height: 40px;
@@ -159,7 +156,7 @@ h2::after {
   width: 54px;
   height: 40px;
   font-size: 18px;
-  line-height: 32px;
+  line-height: 40px;
 }
 
 /* latest news */
@@ -206,19 +203,23 @@ h3::after {
   margin-bottom: 13px;
 }
 
-.read-more-button {
-  border: none;
+.read-more {
   background-color: #1abc9c;
-  padding: 19px 40px;
+  /* padding: 19px 40px; */
   margin: 0;
-  color: white;
-  font-size: 16px;
-  line-height: 26px;
-  cursor: pointer;
+  width: 170px;
 
 }
 
-
+.read-more a {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 19px 44px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
 
 
 
