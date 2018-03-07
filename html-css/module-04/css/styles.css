@@ -24,7 +24,8 @@ img {
 }
 
 .container {
-  width: 1110px;
+  max-width: 1170px;
+  padding: 0 30px;
   margin: 0 auto;
 }
 
@@ -209,25 +210,14 @@ h3::after {
 }
 
 .read-more {
+  display: inline-block;
   background-color: #1abc9c;
   margin: 0;
-  width: 170px;
-
-}
-
-.read-more a {
-  display: inline-block;
-  font-size: 16px;
-  line-height: 26px;
   padding: 19px 44px;
   cursor: pointer;
   text-decoration: none;
   color: white;
 }
-
-
-
-
 
 
 .visually-hidden:not(:focus):not(:active),
