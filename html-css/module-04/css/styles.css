@@ -121,6 +121,10 @@ h2::after {
   margin-bottom: 30px;
 }
 
+.products-list-item img {
+  cursor: pointer;
+}
+
 .products-list-item:nth-child(4n) {
   margin-right: 0;
 }
@@ -129,7 +133,7 @@ h2::after {
   margin-bottom: 0;
 }
 
-.products-list-item p {
+.products-list-item a {
   color: white;
   background-color: #323232;
   margin: 0;
@@ -142,9 +146,10 @@ h2::after {
   display: inline-block;
   height: 40px;
   width: 255px;
+  text-decoration: none;
 }
 
-.products-list-item p:hover {
+.products-list-item:hover a{
   background-color: #1abc9c;
 }
 
@@ -205,7 +210,6 @@ h3::after {
 
 .read-more {
   background-color: #1abc9c;
-  /* padding: 19px 40px; */
   margin: 0;
   width: 170px;
 
