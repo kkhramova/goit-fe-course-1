@@ -56,12 +56,18 @@ img {
   margin: 0;
   padding-top: 40px;
   list-style: none;
+  width: 486px;
+  float: right;
 }
 
 .navigation-list li {
-  float: right;
+  float: left;
   padding-left: 35px;
   
+}
+
+.navigation-list li:first-child {
+  padding: 0;
 }
 .navigation-list a {
   color: #0f0101;
