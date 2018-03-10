@@ -1,0 +1,38 @@
+body {
+  counter-reset: v;
+  background-color: teal;
+}
+
+
+.list {
+  list-style: none;
+  color: rgb(26, 77, 60);
+  font-size: 30px;
+  font-family: sans-serif;
+  border: 3px solid;
+  width: 300px;
+  margin: 300px auto;
+  
+  padding: 30px;
+  background-color: wheat;
+  border-radius: 10px;
+ 
+}
+li {
+  counter-increment: v;
+}
+li::before {
+  content: counter(v, upper-roman);
+  border: 1px solid;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 5px;
+  line-height: 35px;
+  color: black;
+  background-color: tan;
+}
+
+
+
