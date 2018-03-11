@@ -156,7 +156,9 @@ img {
 
 /* latest news */
 
-
+.latest-news {
+  margin-top: 92px;
+}
 .news-list {
   list-style: none;
   margin: 0;
@@ -206,6 +208,7 @@ h3::after {
   cursor: pointer;
   text-decoration: none;
   color: white;
+  border-radius: 4px;
 }
 
 
