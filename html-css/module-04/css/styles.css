@@ -69,7 +69,7 @@ img {
 }
 
 .navigation-list li:first-child {
-  padding: 0;
+  margin: 0;
 }
 .navigation-list a {
   color: #0f0101;
