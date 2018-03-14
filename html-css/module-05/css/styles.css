@@ -119,13 +119,14 @@ img {
   position: absolute;
   display: inline-block;
   border: none;
+  padding: 0;
   width: 104px;
   height: 104px;
   background-color: #1abc9c;
   background-position: center;
   background-repeat: no-repeat;
   opacity: 0.5;
-  z-index: 5;
+ 
 }
 
 .slider-nav:hover {
@@ -207,11 +208,16 @@ img {
   margin: 25px auto 0px;
 }
 
+.bottom-section {
+  padding-bottom: 100px;
+}
+
 .product-list {
   list-style: none;
   margin: 0;
   padding: 0;
-  margin-bottom: 100px;
+ 
+
 }
 
 .product-list-item {
@@ -267,6 +273,7 @@ img {
     rgba(0, 0, 0, 0.5)
   );
   opacity: 0;
+ 
 }
 
 .product-list-item:hover .card-hover {
@@ -284,6 +291,7 @@ img {
   padding: 0;
   margin: 0;
   list-style: none;
+  
 }
 
 .icon-list li {
@@ -295,6 +303,7 @@ img {
   border: 1px solid rgb(232, 236, 238);
   background-repeat: no-repeat;
   background-position: center;
+  
 }
 
 .icon-list li:last-child {
@@ -303,6 +312,7 @@ img {
 
 .icon-list li:hover {
   background-color: #1abc9c;
+  
 }
 
 .cart-icon {
@@ -324,10 +334,13 @@ img {
   color: white;
   text-align: left;
   padding-left: 60px;
+  padding-right: 0;
+  cursor: pointer;
 }
 
 .like {
   background-image: url("../img/icons/heart.png");
+  
 }
 
 .compare {
