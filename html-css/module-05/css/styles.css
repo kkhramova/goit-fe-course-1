@@ -122,15 +122,15 @@ img {
   padding: 0;
   width: 104px;
   height: 104px;
-  background-color: #1abc9c;
+  background-color: rgba(25, 188, 155, 0.5);
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 0.5;
+  opacity: 1;
  
 }
 
 .slider-nav:hover {
-  opacity: 1;
+  background-color: rgb(25, 188, 155);
 }
 
 
@@ -262,22 +262,28 @@ img {
 
 .card-hover {
   position: absolute;
-  width: 255px;
-  height: 282px;
-  border-width: 10px;
-  border-color: rgb(255, 255, 255);
-  border-style: solid;
+  width: 235px;
+  height: 261px;
   background-image: linear-gradient(
     to top,
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   );
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   opacity: 0;
- 
+
+}
+
+.product-list-item:hover .img1{
+  opacity: 0.5;
+
 }
 
 .product-list-item:hover .card-hover {
   opacity: 1;
+  z-index: 5;
 }
 
 .card-hover-content {
