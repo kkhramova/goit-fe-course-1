@@ -133,13 +133,13 @@ img {
 .slider-nav-prev {
   background-image: url("../img/icons/arrow-left.png");
   top: 45%;
-  left: 245px;
+  left: calc(27% - 184px);
   transform: translateY(-50%);
 }
 
 .slider-nav-next {
   background-image: url("../img/icons/arrow-right.png");
-  right: 245px;
+  right: calc(27% - 184px);
   top: 45%;
   transform: translateY(-50%);
 }
@@ -158,7 +158,7 @@ img {
 .slider-content {
   
   position: absolute;
-  width: 46.2%;
+  max-width: 46.2%;
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
