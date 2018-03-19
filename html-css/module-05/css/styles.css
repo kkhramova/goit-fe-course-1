@@ -158,9 +158,11 @@ img {
 .slider-content {
   
   position: absolute;
+  width: 46.2%;
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
+  
 }
 
 .slider-title {
