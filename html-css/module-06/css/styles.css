@@ -26,16 +26,23 @@ img {
 /* HEADER */
 
 .header {
-  padding-top: 40px;
-  padding-bottom: 110px;
+  margin-bottom: 50px;
 }
+
+.navigation {
+  display:flex;
+  justify-content: space-between;
+  min-height: 120px;
+  align-items: center;
+
+}
+
 
 .header a {
   text-decoration: none;
 }
 
 .logo {
-  position: absolute;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -47,7 +54,6 @@ img {
 
 .nav-list {
   display: flex;
-  justify-content: flex-end;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -69,8 +75,8 @@ img {
   line-height: 17px;
 }
 
-.nav-list a:hover,
-.nav-list a:focus {
+.nav-list-item:hover a,
+.nav-list a:focus a {
   color: #f38181;
   transition-duration: 200ms;
 }
@@ -133,7 +139,7 @@ img {
 
 .service-list-item {
   position: relative;
-  max-width: 380px;
+  flex-basis: 380px;
   padding-left: 80px;
   padding-bottom: 100px;
 }
@@ -141,7 +147,6 @@ img {
 .service-list-item::before {
   position: absolute;
   content: '';
-  display: inline-block;
   top: 0;
   left: 20px;
   background-repeat: no-repeat;
@@ -261,7 +266,6 @@ img {
   height: 470px;
   background: linear-gradient(to top, rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9));
   opacity: 0;
-  
   z-index: 5;
 }
 
