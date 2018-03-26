@@ -1,9 +1,12 @@
 body {
   background-color: grey;
+  display: flex;
+  min-height: 1300px;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
-  margin: 30px auto;
   width: 1000px;
   min-height: 1000px;
   display: flex;
