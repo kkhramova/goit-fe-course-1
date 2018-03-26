@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(218, 213, 213);
+}
+.card {
+  background-color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  text-align: center;
+  width: 270px;
+  min-height: 500px;
+  box-shadow: 0px 1px 20px #5c5757;
+  margin: 100px auto;
+  padding: 15px;
+  transition-property: box-shadow;
+  transition-duration: 200ms;
+}
+
+.card:hover {
+  box-shadow: 0px 10px 30px #2c2a2a;
+}
+
+.card-img {
+  transition-property: transform;  
+  transition-duration: 200ms;
+
+}
+
+.card-img:hover {
+  transform: rotate(5deg);
+}
+
+.title {
+  transition: color 300ms linear, transform 200ms linear; 
+}
+
+.title:hover {
+  color: rgb(230, 111, 130);
+  transform: scale(1.15);
+}
+
+
+.button {
+  border: none;
+  width: 100px;
+  background-color: #4b4848;
+  padding: 10px;
+  color: white; 
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 14px;
+  transition-property: width, background-color;
+  transition-duration: 200ms;
+}
+
+button:hover {
+  width: 100%;
+  background-color: rgb(230, 111, 130);
+}
