@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(185, 185, 185);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  width: 450px;
+  padding: 20px;
+  padding-bottom: 35px;
+  text-align: center;
+  box-shadow: 0 0 10px #4d4d4d;
+  background-color: rgb(252, 252, 252);
+  font-family: sans-serif;
+}
+caption {
+  padding: 20px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  font-size: 28px;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, tr, th {
+  border: 2px solid #4d4d4d;
+  padding: 15px 10px;
+}
+
+td {
+  text-transform: uppercase;
+}
+
+th {
+  background-color: #4d4d4d;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
