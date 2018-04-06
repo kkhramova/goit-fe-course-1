@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Homework_07_practice</title>
+</head>
+
+<body>
+  <form class="filter-form">
+  <section class="category-filter">
+    <h2 class="category-filter-title">Filter By categories</h2>
+    <ul class="category-filter-list">
+      <li class="category-filter-item">
+        <input type="checkbox" class="category-filter-check visually-hidden" name="item-category" value="furniture" id="category_furniture">
+        <label for="category_furniture" class="category-filter-label">
+          <span class="category-filter-item-name">Furniture</span>
+          <span class="category-filter-item-count">3</span>
+        </label>
+      </li>
+      <li class="category-filter-item">
+        <input type="checkbox" class="category-filter-check visually-hidden" name="item-category" value="sofa" id="category_sofa">
+        <label for="category_sofa" class="category-filter-label">
+          <span class="category-filter-item-name">Sofa</span>
+          <span class="category-filter-item-count">4</span>
+        </label>
+      </li>
+      <li class="category-filter-item">
+        <input type="checkbox" class="category-filter-check visually-hidden" name="item-category" value="furniture" id="category_chair">
+        <label for="category_chair" class="category-filter-label">
+          <span class="category-filter-item-name">Chair</span>
+          <span class="category-filter-item-count">5</span>
+        </label>
+      </li>
+      <li class="category-filter-item">
+        <input type="checkbox" class="category-filter-check visually-hidden" name="item-category" value="table" id="category_table">
+        <label for="category_table" class="category-filter-label">
+          <span class="category-filter-item-name">Table</span>
+          <span class="category-filter-item-count">5</span>
+        </label>
+      </li>
+      <li class="category-filter-item">
+        <input type="checkbox" class="category-filter-check visually-hidden" name="item-category" value="bedroom" id="category-bedroom">
+        <label for="category-bedroom" class="category-filter-label">
+          <span class="category-filter-item-name">Bedroom</span>
+          <span class="category-filter-item-count">5</span>
+        </label>
+      </li>
+      <li class="category-filter-item">
+        <input type="checkbox" class="category-filter-check visually-hidden" name="item-category" value="mirror" id="category-mirror">
+        <label for="category-mirror" class="category-filter-label">
+          <span class="category-filter-item-name">Mirror</span>
+          <span class="category-filter-item-count">5</span>
+        </label>
+      </li>
+    </ul>
+
+  </section>
+
+
+  <section class="price-filter-section">
+    <h2 class="price-filter-title">Filter By Price</h2>
+    <div class="price-filter">
+        <div class="range-control">
+          <div class="scale">
+            <div class="bar" style="width: 60%;"> </div>
+          </div>
+          <div class="range-toggle range-toggle-min"></div>
+          <div class="range-toggle range-toggle-max"></div>
+        </div>
+        <div class="price-control">
+          <button class="price-button">Filter</button>
+          <input  type="text" name="price" placeholder="$135 - $500">
+        </div>
+    </div>
+    
+  
+  
+  </section>
+</form>
+</body>
+
+</html>
