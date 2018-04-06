@@ -45,8 +45,8 @@ img {
   margin-bottom: 117px;
 }
  
-.log-in {
-  border: none;
+.log-in, .sign-up {
+  /* border: none; */
   background-color: transparent;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -55,19 +55,13 @@ img {
   line-height: 17px;
   padding: 6px 14px;
   cursor: pointer;
+  border: 2px solid  rgba(255, 255, 255, 0);
+  border-radius: 18px;
 }
 
-.sign-up {
-  border: 2px solid  rgb(255, 255, 255);
-  border-radius: 18px;
-  background-color: transparent;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  color: rgb(255, 255, 255);
-  font-size: 14px;
-  line-height: 17px;
-  padding: 6px 14px;
-  cursor: pointer;
+.log-in:hover,
+.sign-up:hover {
+  border: 2px solid  rgba(255, 255, 255, 1);
 }
 
 .logo {
