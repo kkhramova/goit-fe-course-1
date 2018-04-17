@@ -9,20 +9,13 @@ html {
 }
 
 body {
-  font-family: 'Montserrat','Roboto', sans-serif;
+  font-family: "Montserrat", "Roboto", sans-serif;
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
-}
-
-
-.container {
-  margin: 0 auto;
-  width: 320px;
-  text-align: center;
 }
 
 .banner {
@@ -36,17 +29,18 @@ img {
   margin-bottom: 70px;
 }
 
-
 .sign-list {
   margin: 0;
+  display: flex;
+  justify-content: center;
   padding: 0;
   padding-top: 20px;
   list-style: none;
   margin-bottom: 117px;
 }
- 
-.log-in, .sign-up {
-  /* border: none; */
+
+.log-in,
+.sign-up {
   background-color: transparent;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -55,29 +49,32 @@ img {
   line-height: 17px;
   padding: 6px 14px;
   cursor: pointer;
-  border: 2px solid  rgba(255, 255, 255, 0);
+  border: 2px solid rgba(255, 255, 255, 0);
   border-radius: 18px;
 }
 
 .log-in:hover,
 .sign-up:hover {
-  border: 2px solid  rgba(255, 255, 255, 1);
+  border: 2px solid rgba(255, 255, 255, 1);
 }
 
 .logo {
   text-decoration: none;
+  display: flex;
+  justify-content: center;
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   font-size: 20px;
   line-height: 24px;
   cursor: pointer;
-} 
+}
 
 .share-title {
   font-size: 30px;
   text-transform: uppercase;
   margin-top: 34px;
   margin-bottom: 18px;
+  text-align: center;
 }
 
 .title-line {
@@ -87,6 +84,7 @@ img {
   padding: 0 32px;
   margin: 0;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .search-button {
@@ -94,10 +92,15 @@ img {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: rgb(255, 255, 255);
-  padding: 13px 46px;
+  padding: 13px;
   background-color: #ff4e50;
   border-radius: 20px;
   cursor: pointer;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
 }
 
 .meet-team-title {
@@ -112,7 +115,6 @@ img {
   list-style: none;
   padding: 0;
   margin: 0;
-  
 }
 
 .team-list-item {
@@ -120,7 +122,7 @@ img {
   margin-bottom: 30px;
   width: 220px;
   position: relative;
-} 
+}
 
 .team-list-item:last-child {
   margin-bottom: 0;
@@ -148,7 +150,6 @@ img {
   background-repeat: no-repeat;
   left: 84px;
   top: 84px;
-
 }
 
 .icon-1 {
@@ -159,8 +160,6 @@ img {
 .icon-2 {
   background-color: #ffa507;
   background-image: url("../img/icon-3.png");
-
-
 }
 
 .icon-3 {
@@ -177,12 +176,14 @@ img {
   margin: 0;
   margin-bottom: 16px;
   font-size: 14px;
+  text-align: center;
 }
 
 .team-list-text {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   margin: 0;
+  text-align: center;
 }
 
 .see-other-button {
@@ -197,30 +198,16 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-
   .banner {
     min-height: 700px;
   }
 
-  .container {
-    width: 768px;
-    min-height: min-content;
-   }
-   
-  .header {
-    display: flex;
-    min-height: 120px;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    margin-bottom: 100px;
-    align-items: center;
+  .logo {
+    margin-top: 25px;
   }
 
-  
-  .sign-list {
-    padding-top: 0;
-    margin: 0;
-    
+  .header {
+    margin-bottom: 100px;
   }
 
   .share-title {
@@ -240,65 +227,28 @@ img {
 
   .search-button {
     padding: 15px 20px;
-    border-radius: 25px; 
+    border-radius: 25px;
   }
 
   .meet-team-title {
     margin-bottom: 36px;
   }
 
-  .team-list {
-    display: flex;
-    justify-content: baseline;
-    flex-wrap: wrap;
-    width: 532px;
-    margin: 0 auto;
-    flex-direction: column;
-    height: 500px;
-    
-  }
-
-  .team-list-item {
-    width: 236px;
-  }
-
-  .team-list-item:nth-child(2){
+  .team-list-item:nth-child(2) {
     margin-bottom: 0;
   }
-  
+
   .see-other-button {
     padding: 12px 30px;
   }
 }
 
 @media screen and (min-width: 940px) {
-  
-  .banner {
-    min-height: 700px;
-  }
-
-  .container {
-    width: 940px;
-  }
-
-  .header {
-    margin-bottom: 100px;
-  }
-
-  .logo {
-    padding-left: 0;
-  }
-
-  .sign-list {
-    padding-right: 0;
-    margin-bottom: 0;
-  }
-
   .share-title {
     width: 504px;
     margin: 0 auto;
     margin-bottom: 32px;
-  } 
+  }
 
   .title-line {
     margin-bottom: 34px;
@@ -308,39 +258,8 @@ img {
     padding: 15px 20px;
   }
 
-  .team-list {
-    width: 940px;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    height: auto;
-    justify-content: space-between;
-  }
-
-  .team-list-item {
-    width: 220px;
-    margin-bottom: 0;
-  }
-  
-  .team-list-item:nth-child(1) {
-    order: 1;
-  }
-
-  .team-list-item:nth-child(2) {
-    order: 3;
-  }
-  
-  .team-list-item:nth-child(3) {
-    order: 2;
-  }
-
-  .team-list-item:nth-child(4) {
-    order: 4;
-  }
-  
   .see-other-button {
     margin-top: 38px;
     margin-bottom: 70px;
   }
-
 }
-
